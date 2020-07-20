@@ -1,0 +1,25 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Los rios profundos",
+      "author": "Jose maria eguren",
+      "topic": "literature",
+      "url": "ricardotovar.com"
+    },
+    {
+      "id": 2,
+      "title": "Los perros habmierdos",
+      "author": "Ciro alegria",
+      "topic": "literature",
+      "url": "ricardotovar.com"
+    },
+    {
+      "id": 3,
+      "title": "Edipo rey",
+      "author": "Anonimo",
+      "topic": "literature",
+      "url": "ricardotovar.com"
+    }
+  ]
+}
