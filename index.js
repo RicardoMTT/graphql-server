@@ -3,6 +3,7 @@ const app = express();
 
 const { graphqlHTTP } = require("express-graphql");
 const { buildSchema } = require("graphql");
+//Un schema es una manera de poder definir como va lucir nuestros datos.
 
 //data
 const { courses } = require("./data.json");
@@ -55,6 +56,7 @@ const root = {
 };
 
 // GraphQL endpoint
+// root : Que puede consultar desde nuestro datos
 app.use(
   "/graphql",
   graphqlHTTP({
